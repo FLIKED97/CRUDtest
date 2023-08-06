@@ -16,7 +16,7 @@ public class Person {
     private int age;
 
     @NotEmpty(message = "пошта не повинна бути пуста")
-    @Email(message = "пошта повинна бути правильною")
+  //  @Email(message = "пошта повинна бути правильною")
     private String email;
 
     public int getAge() {
